@@ -8,15 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
-
-    @State private var formatter = TimerFormatter()
     @State private var timeInterval: TimeInterval = 0
-    let timer = Timer.publish(every: 0.01, on: .main, in: .common).autoconnect()
+
+    private let formatter = TimerFormatter()
+    private let timer = Timer.publish(every: 0.01, on: .main, in: .common).autoconnect()
+
     var body: some View {
-        Text(NSNumber(value: timeInterval), formatter: formatter)
-            .onReceive(timer) { _ in
-                timeInterval += 0.01
+            Text(NSNumber(value: timeInterval), formatter: formatter)
+                .font(Font(UIFont.monospacedDigitSystemFont(ofSize: 50, weight: .light)))
+                .onReceive(timer) { _ in
+                    timeInterval += 0.01
             }
+                .padding()
     }
 }
 

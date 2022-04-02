@@ -12,7 +12,6 @@
 		20C44F3427F8112E00E6DD93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C44F3327F8112E00E6DD93 /* Assets.xcassets */; };
 		20C44F3727F8112E00E6DD93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C44F3627F8112E00E6DD93 /* Preview Assets.xcassets */; };
 		20C44F3E27F8114400E6DD93 /* TimerFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C44F3D27F8114400E6DD93 /* TimerFormat.swift */; };
-		20C44F4027F8174C00E6DD93 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C44F3F27F8174C00E6DD93 /* TimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +21,6 @@
 		20C44F3327F8112E00E6DD93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		20C44F3627F8112E00E6DD93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		20C44F3D27F8114400E6DD93 /* TimerFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerFormat.swift; sourceTree = "<group>"; };
-		20C44F3F27F8174C00E6DD93 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,10 +55,9 @@
 			children = (
 				20C44F2F27F8112D00E6DD93 /* TimerViewSampelApp.swift */,
 				20C44F3127F8112D00E6DD93 /* ContentView.swift */,
+				20C44F3D27F8114400E6DD93 /* TimerFormat.swift */,
 				20C44F3327F8112E00E6DD93 /* Assets.xcassets */,
 				20C44F3527F8112E00E6DD93 /* Preview Content */,
-				20C44F3D27F8114400E6DD93 /* TimerFormat.swift */,
-				20C44F3F27F8174C00E6DD93 /* TimerView.swift */,
 			);
 			path = TimerViewSampel;
 			sourceTree = "<group>";
@@ -145,7 +142,6 @@
 			files = (
 				20C44F3227F8112D00E6DD93 /* ContentView.swift in Sources */,
 				20C44F3E27F8114400E6DD93 /* TimerFormat.swift in Sources */,
-				20C44F4027F8174C00E6DD93 /* TimerView.swift in Sources */,
 				20C44F3027F8112D00E6DD93 /* TimerViewSampelApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
